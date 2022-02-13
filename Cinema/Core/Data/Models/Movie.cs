@@ -1,12 +1,10 @@
 ﻿namespace Core.Data.Models
 {
-    public class Cinema
+    public class Movie
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Address { get; set; }
-        public ICollection<Movie> Movies { get; set; }
+        public ICollection<Cinema> Cinemas { get; set; }
         public ICollection<CinemaMovie> CinemaMovies { get; set; }
-
     }
 }
