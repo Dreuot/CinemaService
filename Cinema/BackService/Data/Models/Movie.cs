@@ -1,4 +1,4 @@
-﻿namespace Core.Data.Models
+﻿namespace BackService.Data.Models
 {
     public class Movie
     {
@@ -7,5 +7,6 @@
         public string Description { get; set; }
         public ICollection<Cinema> Cinemas { get; set; }
         public ICollection<CinemaMovie> CinemaMovies { get; set; }
+        public ICollection<Seance> Seances { get; set; }
     }
 }

@@ -5,7 +5,17 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackService", "BackService\BackService.csproj", "{E9DE264F-6478-4A99-AC70-4110CCC076B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{F0DD5332-FECF-4BFC-A63B-32B9EBC4B421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{F0DD5332-FECF-4BFC-A63B-32B9EBC4B421}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{DAA65C52-70E6-4E36-B58E-68C745ACD8B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BC276E97-2955-4EF8-BA19-429D976095C3}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		DockerfileAPI = DockerfileAPI
+		DockerfileBack = DockerfileBack
+		run.bat = run.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,10 @@ Global
 		{F0DD5332-FECF-4BFC-A63B-32B9EBC4B421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0DD5332-FECF-4BFC-A63B-32B9EBC4B421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0DD5332-FECF-4BFC-A63B-32B9EBC4B421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA65C52-70E6-4E36-B58E-68C745ACD8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA65C52-70E6-4E36-B58E-68C745ACD8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA65C52-70E6-4E36-B58E-68C745ACD8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA65C52-70E6-4E36-B58E-68C745ACD8B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

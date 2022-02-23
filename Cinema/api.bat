@@ -1,0 +1,1 @@
+cd C:\Users\Андрей\Desktop\Обучение\CinemaService\Cinema\API\bin\Debug\net6.0

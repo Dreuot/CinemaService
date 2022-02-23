@@ -1,8 +1,8 @@
-﻿using Core.Data.Models;
+﻿using BackService.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace Core.Data
+namespace BackService.Data
 {
     public class CinemaContext : DbContext
     {

@@ -1,4 +1,4 @@
-﻿namespace Core.Data.Models
+﻿namespace BackService.Data.Models
 {
     public class Seance
     {
